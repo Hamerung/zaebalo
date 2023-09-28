@@ -8,7 +8,8 @@ def is_valid(user_num):
     for i in user_num:
         if i.isalpha():
             return False
-    return float(user_num) == int(user_num)
+    n = float(user_num)
+    return n == int(n)
 
 
 guess = input('Введи число от 1 до 100')
